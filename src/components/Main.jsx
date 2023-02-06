@@ -5,6 +5,7 @@ import Form from "./Form";
 import Loader from "./Loader";
 import NavBar from "./NavBar";
 import NotFound from "./NotFound";
+import {BrowserRouter} from 'react-router-dom'
 
 function Main() {
   const [data, setData] = useState(null);
@@ -52,7 +53,6 @@ function Main() {
 
   return (
     <div className="bg-gray-50">
-      <NavBar/>
       <Form
         endPoint={endPoint}
         setEndPoint={setEndPoint}
