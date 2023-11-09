@@ -3,9 +3,7 @@ import { helpHttp } from "../helpers/helpHttp";
 import CardCountry from "./CardCountry";
 import Form from "./Form";
 import Loader from "./Loader";
-import NavBar from "./NavBar";
 import NotFound from "./NotFound";
-import {BrowserRouter} from 'react-router-dom'
 
 function Main() {
   const [data, setData] = useState(null);
@@ -44,7 +42,7 @@ function Main() {
     });
     if (filterCountry.length === 0) {
       setFilterSearch(true);
-    } else { 
+    } else {
       setFilterSearch(false);
     }
 
@@ -52,13 +50,13 @@ function Main() {
   };
 
   return (
-    <div className="bg-gray-50">
+    <div className="py-2 dark:bg-slate-900">
       <Form
         endPoint={endPoint}
         setEndPoint={setEndPoint}
         handleChangeSearch={handleChangeSearch}
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 pl-24 pr-24 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-10 sm:px-20 dark:bg-slate-900 ">
         {loading && <Loader />}
         {data &&
           data.map((card, index) => {
