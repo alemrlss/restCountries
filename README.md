@@ -1,4 +1,4 @@
-# Rest Countries 
+# Rest Countries
 
 La aplicación "Rest Countries" es una plataforma que proporciona información detallada sobre diversos países de todo el mundo. Los usuarios pueden explorar datos esenciales como la población, capital y región de cada país de manera intuitiva. La aplicación también incluye funcionalidades de búsqueda para facilitar la localización de países específicos y un filtro por regiones para una exploración más organizada.
 
@@ -13,11 +13,15 @@ La aplicación "Rest Countries" es una plataforma que proporciona información d
 
 ### Página de Inicio
 
-[![Página de Inicio](./screenshots/home.png)](./screenshots/home.png)
+[![Página de Inicio](./src/home.png)](./src/home.png)
 
 ### Detalle del País
 
 [![Detalle del País](./screenshots/detail.png)](./screenshots/detail.png)
+
+### Ejemplo con Bandera de Canadá
+
+[![Bandera de Canadá](https://restcountries.com/v3/alpha/CA/flags/png)](https://restcountries.com/v3/alpha/CA/flags/png)
 
 ## Tecnologías Utilizadas
 
