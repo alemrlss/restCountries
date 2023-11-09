@@ -19,10 +19,6 @@ La aplicación "Rest Countries" es una plataforma que proporciona información d
 
 [![Detalle del País](detail.png)](detail.png)
 
-### Ejemplo con Bandera de Canadá
-
-[![Bandera de Canadá](https://restcountries.com/v3/alpha/CA/flags/png)](https://restcountries.com/v3/alpha/CA/flags/png)
-
 ## Tecnologías Utilizadas
 
 - React.js
