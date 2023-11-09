@@ -13,11 +13,11 @@ La aplicación "Rest Countries" es una plataforma que proporciona información d
 
 ### Página de Inicio
 
-[![Página de Inicio](./src/home.png)](./src/home.png)
+[![Página de Inicio](home.png)](/home.png)
 
 ### Detalle del País
 
-[![Detalle del País](./screenshots/detail.png)](./screenshots/detail.png)
+[![Detalle del País](detail.png)](detail.png)
 
 ### Ejemplo con Bandera de Canadá
 
